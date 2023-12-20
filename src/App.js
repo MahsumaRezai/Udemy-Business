@@ -1,11 +1,11 @@
 
 import { Fragment } from 'react';
-
+import Form from './Component/Form';
 const App = (props) => {
     return (
         <Fragment>
-           
-         <h1>kkkk</h1>k
+            <Form />
+
 
 
         </Fragment>

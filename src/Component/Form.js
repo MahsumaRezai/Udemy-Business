@@ -1,15 +1,18 @@
 
 import { Fragment } from 'react';
-
-const App = (props) => {
+import Card from './Card.js'
+const Form = (props) => {
     return (
         <Fragment>
+            <Card>
+                <h1>hrllo</h1>
+
+            </Card>
            
-         <h1>kkkk</h1>k
 
 
         </Fragment>
     );
 };
 
-export default App;
+export default Form;

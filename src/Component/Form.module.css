@@ -1,0 +1,15 @@
+.valueinput {
+    border: 1px solid #2d2f31;
+    position: relative;
+    box-shadow: none!important;
+    outline: 0!important;
+    padding: 1.4rem;
+    transition: opacity 100ms linear;
+    width: 100%
+}
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

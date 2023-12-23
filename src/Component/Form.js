@@ -11,9 +11,7 @@ const Form = (props) => {
                 <form>
                     <div className={classes.inputs}>
                         <input className={classes.valueinput} placeholder="Username" />
-
                     </div>
-                   
 
                 </form>
 

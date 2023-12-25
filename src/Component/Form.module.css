@@ -5,11 +5,48 @@
     outline: 0!important;
     padding: 1.4rem;
     transition: opacity 100ms linear;
-    width: 100%
+    width: 300px
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
 }
 .inputs {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.btn {
+    background: #5624d0;
+    width: 300px;
+    border: 1px solid #5624d0;
+    padding: 1.2rem;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+    flex-direction: column
+}
+.text p {
+    font-size: 12px;
+    color: #5624d0;
+}
+.text span {
+    font-size: 10px;
+    color: gray
+
 }
